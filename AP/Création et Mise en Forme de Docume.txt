@@ -1,0 +1,17 @@
+Création et Mise en Forme de Documents
+1.Numérotation des Pages : Apprendre à insérer des numéros de page pour une meilleure organisation des documents.
+Sommaires Automatiques : Utiliser les fonctionnalités de sommaire automatique pour faciliter la navigation dans les documents longs.
+Styles et Titres : Uniformiser la mise en forme des titres en utilisant les styles prédéfinis pour assurer une présentation cohérente.
+2. Utilisation des Tabulations et des Tableaux
+Tabulations : Maîtriser l’utilisation des tabulations pour aligner le texte de manière précise.
+Création de Tableaux : Apprendre à insérer et formater des tableaux pour organiser les informations de manière claire et structurée.
+3. Règles Syntaxiques
+Vérification Orthographique et Grammaticale : Utiliser les outils de vérification pour corriger les fautes d’orthographe et de grammaire.
+Modèles de Documents : Utiliser des modèles pour standardiser les documents et gagner du temps.
+4. Intégration de Contenus
+Insertion de Graphiques et Images : Apprendre à insérer des graphiques et des images pour illustrer les rapports.
+Liens et Références : Utiliser les fonctionnalités de liens hypertextes et de références croisées pour améliorer la navigation et la cohérence des documents.
+Objectifs de la Formation Word
+Améliorer l’Efficacité : Utilisation optimale des fonctionnalités de Word pour gagner en productivité.
+Uniformiser les Documents : Assurer une cohérence dans la présentation des dossiers et des rapports.
+Faciliter l’Analyse des Données : Intégrer des tableaux et graphiques pour une meilleure visualisation des données.
