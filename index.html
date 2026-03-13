@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Nathan Castro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">NC.</div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#catalogue">Cours</a></li>
+            <li><a href="#about">Parcours</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="accueil">
+        <div class="header-content">
+            <img src="document/photo.jpg" alt="Nathan Castro" class="profile-pic" onerror="this.style.display='none'">
+            <h1>Nathan Castro</h1>
+            <h2>Étudiant BTS SIO — Spécialité SLAM</h2>
+            <p>Portfolio Académique & Professionnel</p>
+            <div class="skills-tags">
+                <span>Python</span><span>Java</span><span>C#</span><span>Web</span>
+            </div>
+            <a href="#catalogue" class="btn-primary">Voir mes dossiers</a>
+        </div>
+    </header>
+
+    <section id="catalogue">
+        <div class="section-title">
+            <h3>Mes Matières & Blocs</h3>
+            <p>Ressources classées par compétences et spécialités.</p>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Tout</button>
+            <button class="filter-btn" data-filter="bloc">Blocs de Compétences</button>
+            <button class="filter-btn" data-filter="dev">Développement</button>
+            <button class="filter-btn" data-filter="general">Général & Gestion</button>
+        </div>
+
+        <div class="cours-grid" id="grid-container">
+            </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="section-title">
+                <h3>Mon Parcours</h3>
+                <p>Formation et Expériences Professionnelles</p>
+            </div>
+
+            <div class="timeline">
+                
+                <div class="timeline-period">
+                    <span>🎓 Période BTS SIO (2024 - 2026)</span>
+                </div>
+
+                <div class="timeline-item left hidden">
+                    <div class="content school-card">
+                        <span class="date">Sept. 2024 - Présent</span>
+                        <h4>BTS SIO (Option SLAM)</h4>
+                        <span class="location">Lycée Saint-Luc, Cambrai</span>
+                        <p>Solutions Logicielles et Applications Métiers.<br>
+                        Développement d'applications, Cybersécurité, Bases de données.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right hidden">
+                    <div class="content internship-card">
+                        <span class="date">Janvier - Février 2025 (6 sem.)</span>
+                        <h4>Développeur Web & Support</h4>
+                        <span class="location">Entreprise : Bijoux de Line</span>
+                        <p>
+                            <strong>Stage de 1ère année BTS :</strong><br>
+                            • Conception complète et mise en ligne du site web.<br>
+                            • Gestion de la relation client et support utilisateur.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="timeline-period">
+                    <span>🎓 Période Bac Pro (2021 - 2024)</span>
+                </div>
+
+                <div class="timeline-item left hidden">
+                    <div class="content school-card">
+                        <span class="date">2021 - 2024</span>
+                        <h4>Bac Pro Systèmes Numériques</h4>
+                        <span class="location">Lycée Saint-Luc, Cambrai</span>
+                        <p>Option RISC (Réseaux).<br>Mention Très Bien.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right hidden">
+                    <div class="content internship-card">
+                        <span class="date">2023 (6 semaines)</span>
+                        <h4>Technicien Réseaux</h4>
+                        <span class="location">Agglo de Cambrai</span>
+                        <p>
+                            <strong>Stage de Terminale :</strong><br>
+                            • Réorganisation de baies de brassage.<br>
+                            • Analyse de rentabilité du parc imprimantes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right hidden">
+                    <div class="content internship-card">
+                        <span class="date">2022 (6 semaines)</span>
+                        <h4>Technicien Maintenance</h4>
+                        <span class="location">Login Informatique</span>
+                        <p>
+                            <strong>Stage de Première :</strong><br>
+                            • Préparation de postes (Master) et dépannage hardware.<br>
+                            • Tests de performance (Benchmark).
+                        </p>
+                    </div>
+                </div>
+
+                 <div class="timeline-item right hidden">
+                    <div class="content internship-card">
+                        <span class="date">2021 (6 semaines)</span>
+                        <h4>Stage Découverte</h4>
+                        <span class="location">SARL Pierre Desenne</span>
+                        <p>
+                            <strong>Stage de Seconde :</strong><br>
+                            • Inventaire de stock textile.<br>
+                            • Utilisation de logiciels de broderie industrielle.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="veille">
+        <div class="section-title">
+            <h3>Veille Technologique</h3>
+            <p>Actualités Cyber & Développement (Flux RSS en temps réel)</p>
+        </div>
+    
+        <div id="rss-container" class="cours-grid">
+            <p style="text-align:center; color:#666;">Chargement du flux...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact : <a href="mailto:CastroNathan@proton.me">CastroNathan@proton.me</a></p>
+        <p>&copy; 2026 Nathan Castro</p>
+    </footer>
+
+    <div id="fileModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modalTitle">Matière</h3>
+            <ul id="fileList" class="file-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
