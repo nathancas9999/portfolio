@@ -1,0 +1,30 @@
+Input "Nombre à tester ?",A
+If 0≠A et 1≠abs(A)
+Then
+If 2=abs(A)
+Then
+Disp versChaîne(A)+" est premier."
+Else
+0→C
+1+ent(√(abs(A)))→D
+1→B
+Disp "Diviseurs:"
+While C=0 et B≤D
+If A/B=ent(A/B)
+Then
+Disp B
+If B≠A/B
+Disp A/B
+End
+B+1→B
+End
+If C≠0
+Then
+Disp versChaîne(A)+" n'est pas premier."
+Else
+Disp versChaîne(A)+" est premier."
+End
+End
+Else
+Disp "1 n'est pas premier."
+End
