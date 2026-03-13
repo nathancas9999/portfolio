@@ -1,0 +1,104 @@
+Base de données 
+
+EX 4
+
+Schéma relationnel :
+
+Client (num, nom, #numcat, #numrep)
+
+Clef primaire : num
+Clef étrangère : numcat fait ref à num de catégorie
+Clef étrangère : numrep faisant ref à num de représentant
+
+Commande (num, date, #numclient)
+
+Clef primaire : num
+Clef étrangère : numclient fait réf à num de client 
+
+Categorie (num, libelle, )
+
+Clef primaire : num
+
+Representant (num, nom)
+
+Clef primaire : num
+
+Evolution :
+
+Produit (num, nom, prix)
+
+Clef primaire : num
+
+Contenu (numcon, #numcommande, #numproduit
+
+Clef primaire : numcom, numpro
+
+Clefs étrangères : numcom fait ref à num de commande 
+Clefs étrangères : numpro fait ref à num de produit
+
+EX 5
+
+Club (code, nom, ville)
+Clef primaire :code
+Clef étrangère :
+
+Joueur (numlicence, nom, prenom, codeClub)
+Clef primaire : numlicence
+Clef étrangère :#codeClub
+
+Competition (code, nom, date)
+Clef primaire :code
+Clef étrangère :
+
+Participation (numlicence, codeCompetition, classement)
+Clef primaire : numlicence, codeCompetition
+Clef étrangère : #numlicence, #codeCompetition
+
+
+1. À quel continent appartient le pays n°13 ?
+Asie
+2. À quoi sert la dernière colonne de la table pays ?
+a savoir le nom du continent
+3. Peut-on saisir la valeur « Asie » dans cette dernière colonne ? Justifier.
+Non car c'est num
+4. Peut-on saisir la valeur « 6 » dans cette dernière colonne ? Justifier.
+Non car il n'y a pas de valeur pour le 6
+5. Quelle information apporte la ligne encadrée de la table « traversee » ?
+elle apporte le pays a qui appartient le fleuve
+6. Un même numéro de pays peut-il apparaître plusieurs fois dans la table « traversee » ? Quelle
+signification cela aurait-il ?
+oui que plusieurs fleuves sont dans le meme pays 
+7. Un même numéro de fleuve peut-il apparaître plusieurs fois dans la table « traversee » ? Quelle
+signification cela aurait-il ?
+qu'il passe par plusieurs pays 
+8. Quelle information apporte la ligne encadrée de la table « frontalier » ?
+que l'egypte et le soudan sont frontaliers
+9. Écrire le schéma relationnel des données de cette base.
+
+Pays( numPays nomPays capitale  superficie Km numContinent
+Clef primaire :
+Clef étrangère :
+
+Continent( numContinent nomContinent
+Clef primaire :
+Clef étrangère :
+
+Fleuve( numFleuve nomFleuve
+Clef primaire :
+Clef étrangère :
+
+Traversee( numFleuve numPays
+Clef primaire :
+Clef étrangère :
+
+Frontalier( numPays nurnPays2
+Clef primaire :
+Clef étrangère :
+
+10. On désire préciser sur combien de kilomètres un fleuve traverse un pays. Modifier en conséquence le
+schéma relationnel.
+
+
+11. On souhaite aussi indiquer dans quel pays un fleuve prend sa source. Modifier en conséquence le
+schéma relationnel.
+
